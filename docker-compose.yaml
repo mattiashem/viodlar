@@ -1,0 +1,13 @@
+version: '2'
+services:
+  grav:
+    build: .
+    image: mattiashem/grav
+    volumes:
+      - ./site:/var/www/html
+    ports:
+      - 8080:80
+
+
+
+
